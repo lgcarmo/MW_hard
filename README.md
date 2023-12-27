@@ -1,6 +1,7 @@
 # MW HARD
 
-### OBS: Warning all samples are malicious
+
+## <mark style="background-color: #FF0000">OBS: Warning all samples are malicious</mark>
 
 ## Intro
 
@@ -19,14 +20,16 @@ Block all types the files that you don't work with and if possible move the othe
 ## Running:
 
 ### STEP ONE
+```bash
+python3 mw_hard.py --module 2
+```
+- [x] Set your email attacker settings (OBS: use email external to your company gmail,hotmail etc).
 
-    python3 mw_hard.py --module 2
-    Set your email attacker settings (OBS: use email external to your company gmail,hotmail etc)
-    
 ### STEP TWO
-
-    python3 mw_hard.py -- module 1 
-    #Send all samples
+```bash
+python3 mw_hard.py -- module 1 
+```
+- [x] Send all samples
     
     
 ## Afeter:
@@ -35,4 +38,4 @@ After running, check your email box and validate which emails you have received.
 
 take recommended actions and related actions to protect your environment.
 
-NOTE: If email protection blocks the files, validate the reason to ensure that other types of files of this type
+<mark>NOTE: If email protection blocks the files, validate the reason to ensure that other types of files of this type</mark>
